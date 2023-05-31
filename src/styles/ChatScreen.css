@@ -1,0 +1,171 @@
+.profile_photo {
+    border-radius: 50%;
+    height: 2.2rem;
+}
+
+.contact_profile_photo1 {
+    height: 3rem;
+    position: absolute;
+    top: 25px;
+    left: -10px;
+}
+
+.contact_profile_photo2 {
+    height: 3rem;
+    position: absolute;
+    top: -23px;
+    left: -10px;
+}
+
+.contact_profile_photo3 {
+    height: 3rem;
+    position: absolute;
+    top: -23px;
+    right: -25px;
+}
+
+.contact_profile_photo4 {
+    height: 3rem;
+    position: absolute;
+    top: 25px;
+    right: -25px;
+}
+
+.input_bottom_line {
+    border-bottom: 0.2rem solid var(--base-color) !important;
+}
+
+.menu_bottom_line {
+    border-bottom: 2px solid var(--menu-bottomline-light) !important;
+    height: 48px;
+}
+
+.menu_bottom_line:hover {
+    border-bottom: 2px solid var(--menu-bottomline-light) !important;
+    height: 48px;
+    background-color: var(--chat-screen-background);
+    border-radius: 5px;
+}
+
+.active_backgound {
+    background-color: var(--background-lightDark);
+    border-radius: 6px;
+}
+
+.menu_option {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 9.75rem;
+    top: 2rem;
+    right: 0px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 9.75rem;
+    top: 2rem;
+    right: 1px;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+}
+
+/* ----------------------------------rightside mobile---------------------------- */
+
+.chat_box {
+    height: calc(100vh - 190px);
+    /* background-color: aqua; */
+    overflow: auto;
+}
+
+.chat-screen-bg {
+    background-color: var(--chat-screen-background);
+}
+
+.input_icon {
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    background: white;
+}
+
+/* -----------------------------------------------messagediv--------------------- */
+.date_line {
+    border-top: 1px solid var(--chat-dateline-color);
+}
+
+.message-date {
+    height: 1rem;
+    position: relative;
+    margin-top: 8rem;
+}
+
+.date {
+    position: absolute;
+    z-index: 2;
+    background: var(--chat-screen-background);
+}
+
+.message {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 12px 12px 12px;
+    max-width: calc(100vw - 107px);
+    height: min-content;
+    padding: 10px;
+}
+
+.message2 {
+    background: #1C63D5;
+    border-radius: 12px 12px 0px 12px;
+    max-width: calc(100vw - 107px);
+    height: min-content;
+    padding: 10px;
+}
+
+.collage {
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+}
+
+.verifyIcom {
+    position: absolute;
+    top: 14px;
+    right: -1px;
+}
+
+.verifyIcon1 {
+    height: 12px;
+    background: white;
+    border-radius: 99%;
+}
+
+.pop_over {
+    height: 44px;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 999px;
+    position: absolute;
+    top: -52px;
+    right: 4px;
+    background-color: var(--base-color);
+    width: 124px;
+}
+
+.arrow{
+    position: absolute;
+    transform: rotate(47deg);
+    background-color:  var(--base-color);
+    height: 10px;
+    bottom: -3px;
+    width: 10px;
+    left: 69px;
+}

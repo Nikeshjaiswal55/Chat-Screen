@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish';
+}
+
+:root {
+    --base-color: #008000;
+    --font-color-brown: #606060;
+    --font-color-dark: #141E0D;
+    --background-lightDark: #373e45;
+    --menu-bottomline-light: #E5E5E0;
+    --chat-screen-background: #FAF9F4;
+    --chat-dateline-color: #B7B7B7;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    color: var(--font-color-brown);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.text_bold {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--font-color-dark);
+}
+
+.font-size14 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.message-font {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #606060;
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
