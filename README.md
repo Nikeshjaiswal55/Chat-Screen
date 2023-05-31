@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## Hello! If you'd like to see a live demo, please follow these steps in your browser settings:
+    1. Open your browser's settings.
+    2. Look for the 'Site Settings' option. 
+    3. Within 'Site Settings,' find the 'Insecure Content' section.
+    4. In the 'Insecure Content' section, there should be an option to 'Add URL' or 'Allow.'
+    5. Click on that option and add the URL of the demo you want to access.
+    
+## Demo link :- https://corider-chatscreen-web.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots :- 
+  
+  1. Desptop Screen:- 
+    ![image](https://github.com/Nikeshjaiswal55/Chat-Screen/assets/108169238/33a71c54-4099-495a-b0f1-f02321ed46b1)
 
-## Available Scripts
+  2. Mobile Screen:-
+    ![image](https://github.com/Nikeshjaiswal55/Chat-Screen/assets/108169238/b3796c6d-5e59-4df4-9bd0-1f70ce948c0b)
 
-In the project directory, you can run:
+This is a chat application built using React.js, React Lazy Loading, and the Bootstrap library. The project allows users to engage in real-time chat conversations and includes features such as data fetching with Axios, user verification through unique badges, and the implementation of infinite scroll using the React Infinite Scroll library.
 
-### `npm start`
+## Features
+   1. Lazy loading of components to optimize performance.
+   2. User verification with unique badges for authenticity.
+   3. Data fetching using Axios for seamless integration with external APIs.
+   4. Infinite scroll implementation using the React Infinite Scroll library.
+   5. Responsive and visually appealing user interface built with Bootstrap.
+   
+   
+## Installation
+   1. Clone the repository: git clone https://github.com/your-username/chat-application.git
+   2. Navigate to the project directory: cd chat-application
+   3. Install the dependencies: npm install
+   
+   
+## Usage
+   1. Start the development server: npm start
+   2. Open your browser and visit http://localhost:3000 to access the chat application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Configuration
+    No additional configuration is required for the chat application. However, please ensure that you have a stable internet connection to enable data fetching.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
+  The following dependencies are used in this project:
 
-### `npm run build`
+  1. React.js
+  2. React Lazy Loading
+  3. Bootstrap
+  4. Axios
+  5. React Infinite Scroll
+  
+  
+### Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## For any inquiries or questions, please reach out to nikeshjaiswal55@gmail.com
