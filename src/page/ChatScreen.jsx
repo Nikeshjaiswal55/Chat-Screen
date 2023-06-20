@@ -17,6 +17,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 
 const ChatScreen = () => {
+    const [mode, setMode] = useState(false);
     const [chats, setChats] = useState([]);
     const [toggle, setToggle] = useState(false);
     const [data, setdata] = useState([]);
@@ -43,14 +44,19 @@ const ChatScreen = () => {
 
     //api calling
     const fetchChats = () => {
-        axios.get(`http://3.111.128.67/assignment/chat?page=${page}`)
+        axios.get(`https://qa.corider.in/assignment/chat?page=${page}`)
             .then(response => {
                 const newChats = response.data.chats;
                 setdata(response.data)
-                setChats([...chats, ...newChats])
+                setChats([...chats, ...newChats]);
+                localStorage.setItem("alldata", JSON.stringify([...chats, ...newChats]))
+                setMode(false)
             })
             .catch(error => {
                 console.error(error);
+                const collection = localStorage.getItem("alldata")
+                setChats(JSON.parse(collection))
+                setMode(true)
             });
     };
 
@@ -92,6 +98,9 @@ const ChatScreen = () => {
                     <div>
                         <ContactProfile item={data} />
                     </div>
+                    {(mode)&&<div className="alert alert-warning m-0 p-2" role="alert">
+                        <p className='m-0 p-0 text-center'>you are in offline mode</p>
+                    </div>}
                     <div className='chat_box pb-2' ref={chatBoxRef} id='chatBox' onScroll={handleScroll}>
                         <InfiniteScroll
                             dataLength={chats?.length}
